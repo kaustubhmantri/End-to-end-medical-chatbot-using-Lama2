@@ -1,10 +1,11 @@
-langchain
+
 torch
 accelerate
 #bitsandbytes
 transformers
 ctransformers
 sentence_transformers
+langchain==0.0.225
 faiss-cpu
 altair
 tiktoken
