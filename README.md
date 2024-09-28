@@ -25,15 +25,14 @@ pip install -r requirements.txt
 ```
 
 
-### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
+### Create a `.env` file in the root directory and add your FAISS vector database credentials as follows:
 
 ```ini
-PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
-PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+FAISS_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
-### Download the quantize model from the link provided in model folder & keep the model in the model directory:
+### Download the quantize model mentioned below & keep the model in the model directory:
 
 ```ini
 ## Download the Llama 2 Model:
@@ -51,13 +50,13 @@ python store_index.py
 ```
 
 ```bash
-# Finally run the following command
+# Finally run the following command to run the project on Flask server
 python app.py
 ```
 
 Now,
 ```bash
-open up localhost:
+Open up http://localhost:5000 in your browser to interact with the Medical Chatbot.
 ```
 
 
@@ -67,6 +66,6 @@ open up localhost:
 - LangChain
 - Flask
 - Meta Llama2
-- Pinecone
+- FIASS
 
 
