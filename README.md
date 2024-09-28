@@ -49,8 +49,8 @@ https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 python store_index.py
 ```
 
+### Finally run the following command to run the project on Flask server
 ```bash
-# Finally run the following command to run the project on Flask server
 python app.py
 ```
 
